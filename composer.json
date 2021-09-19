@@ -1,5 +1,5 @@
 {
-    "name": "ryanzeng/php-lokalise-api-laravel",
+    "name": "ryanzzeng/php-lokalise-api-laravel",
     "authors": [
         {
             "name": "Ryan Zeng",
@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ryanzeng\\Lokalise\\LokaliseServiceProvider"
+                "Ryanzzeng\\Lokalise\\LokaliseServiceProvider"
             ]
         }
     },

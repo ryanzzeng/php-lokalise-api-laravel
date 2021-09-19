@@ -1,6 +1,6 @@
 <?php
 
-namespace Ryanzeng\Lokalise;
+namespace Ryanzzeng\Lokalise;
 
 use Illuminate\Support\ServiceProvider;
 
