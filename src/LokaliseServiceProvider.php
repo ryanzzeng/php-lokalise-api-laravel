@@ -1,8 +1,9 @@
 <?php
 
-namespace Ryanzzeng\Lokalise;
+namespace Ryanzeng\Lokalise;
 
 use Illuminate\Support\ServiceProvider;
+use Lokalise\LokaliseApiClient;
 
 class LokaliseServiceProvider extends ServiceProvider
 {
