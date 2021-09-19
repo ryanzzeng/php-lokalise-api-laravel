@@ -1,0 +1,34 @@
+{
+    "name": "ryanzeng/php-lokalise-api-laravel",
+    "authors": [
+        {
+            "name": "Ryan Zeng",
+            "email": "zengruijiang@gmail.com"
+        }
+    ],
+    "description": "PHP Lokalise Api Laravel",
+    "license": "MIT",
+    "require": {
+        "lokalise/php-lokalise-api": "^4.0"
+    },
+    "require-dev": {
+        "lokalise/php-lokalise-api": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ryanzeng\\Lokalise\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ryanzeng\\Lokalise\\LokaliseServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
