@@ -11,9 +11,6 @@
     "require": {
         "lokalise/php-lokalise-api": "^4.0"
     },
-    "require-dev": {
-        "lokalise/php-lokalise-api": "^4.0"
-    },
     "autoload": {
         "psr-4": {
             "Ryanzeng\\Lokalise\\": "src/"
